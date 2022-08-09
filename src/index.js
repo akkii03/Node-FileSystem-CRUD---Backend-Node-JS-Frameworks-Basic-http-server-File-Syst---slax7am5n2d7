@@ -9,20 +9,20 @@ const myFileWriter = async (fileName, fileContent) => {
 const myFileReader = async (fileName) => {
 	// write code here
 	// dont chnage function name
-	fileReader(fileName);
+	fs.fileReader(fileName);
 }
 
 
 const myFileUpdater = async (fileName, fileContent) => {
 	// write code here
 	// dont chnage function name
-	fileUpdater(fileName,fileContent);
+	fs.appendFile(fileName,fileContent);
 }
 
 const myFileDeleter = async (fileName) => {
 	// write code here
 	// dont chnage function name
-	fileDeleter(fileName);
+	fs.fileDeleter(fileName);
 }
 
 
